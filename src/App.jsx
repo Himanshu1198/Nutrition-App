@@ -54,7 +54,7 @@ function App() {
             data.items.map((food) => (
               <div
                 key={food.name}
-                className='p-5 w-80 bg-white bg-opacity-50 rounded-2xl mt-10 text-center'
+                className='p-5 bg-opacity-50 rounded-2xl mt-10 text-center'
               >
                 <FoodItem food={food} />
               </div>
